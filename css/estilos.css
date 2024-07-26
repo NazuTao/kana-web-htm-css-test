@@ -1,0 +1,119 @@
+body {
+    font-family: 'FontPagina', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(/recursos/kanakana.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 82, 189, 0.3);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.botones {
+    margin-top: 30px;
+}
+button {
+    color: white;
+    margin: 5px;
+    padding: 30px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    text-shadow: 
+                -1px -1px 0 #000,  
+                1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000;
+    background-color: rgb(233, 34, 94);
+    font-family: 'FontPagina', Arial, Helvetica, sans-serif;
+}
+.glass-effect {
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 15px; 
+    padding: 5px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    color: white; 
+}
+.fix-size {
+    width: 400px;
+    height: 400px;
+}
+.cuadro {
+    position: relative;
+    padding: 50px;
+}
+
+.cuadro::before {
+    content: '';
+    position: absolute;
+    top: 10px; /* Ajusta según sea necesario */
+    left: 10px; /* Ajusta según sea necesario */
+    width: calc(100% - 20px); /* Ajusta el ancho para evitar que se desborde */
+    height: calc(100% - 20px); /* Ajusta la altura para evitar que se desborde */
+    z-index: -1; /* Coloca el cuadro detrás del contenido */
+}
+.fondoprincipal {
+    position: relative;
+    padding: 20px;
+}
+
+.bordetext {
+    text-shadow: 
+                -2px -2px 0 #000,  
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -2px 0 0 #000,
+                2px 0 0 #000,
+                0 2px 0 #000,
+                0 -2px 0 #000;
+}
+
+.colortextmain {
+    color: white;
+    margin: 5px;
+    padding: 30px 50px;
+    border-radius: 15px;
+    font-size: 20px;    
+    font-family: 'FontPagina', Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'FontPagina';
+    src: url('fonts/fontpagina.woff2') format('woff2'),
+         url('fonts/fontpagina.ttf') format('truetype');
+    font-weight: bolder;
+    font-style:oblique
+}
+
+.fontsxd {
+    font-family: 'FontPagina', Arial, Helvetica, sans-serif;
+}
