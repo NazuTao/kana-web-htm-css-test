@@ -74,11 +74,11 @@ button {
 .cuadro::before {
     content: '';
     position: absolute;
-    top: 10px; /* Ajusta según sea necesario */
-    left: 10px; /* Ajusta según sea necesario */
-    width: calc(100% - 20px); /* Ajusta el ancho para evitar que se desborde */
-    height: calc(100% - 20px); /* Ajusta la altura para evitar que se desborde */
-    z-index: -1; /* Coloca el cuadro detrás del contenido */
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    z-index: -1;
 }
 .fondoprincipal {
     position: relative;
