@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url(/recursos/kanakana.jpg);
+    background-image: url(https://i.imgur.com/hoPEAFo.jpeg);
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -31,10 +31,10 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 5px;
 }
 .botones {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 button {
     color: white;
@@ -42,7 +42,7 @@ button {
     padding: 30px 50px;
     border-radius: 15px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 18px;
     text-shadow: 
                 -1px -1px 0 #000,  
                 1px -1px 0 #000,
@@ -63,8 +63,8 @@ button {
     color: white; 
 }
 .fix-size {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 .cuadro {
     position: relative;
@@ -76,8 +76,8 @@ button {
     position: absolute;
     top: 10px;
     left: 10px;
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
     z-index: -1;
 }
 .fondoprincipal {
@@ -100,9 +100,9 @@ button {
 .colortextmain {
     color: white;
     margin: 5px;
-    padding: 30px 50px;
+    padding: 20px 40px;
     border-radius: 15px;
-    font-size: 20px;    
+    font-size: 15px;    
     font-family: 'FontPagina', Arial, Helvetica, sans-serif;
 }
 
@@ -115,5 +115,5 @@ button {
 }
 
 .fontsxd {
-    font-family: 'FontPagina', Arial, Helvetica, sans-serif;
+    font-family: 'FontPagina', Arial, Helvetica, sans-serif; /* xd */
 }
